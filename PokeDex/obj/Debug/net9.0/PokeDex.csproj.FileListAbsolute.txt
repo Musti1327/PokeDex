@@ -12,3 +12,4 @@ C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\refint\PokeDex.dll
 C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.pdb
 C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.genruntimeconfig.cache
 C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\ref\PokeDex.dll
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.sourcelink.json

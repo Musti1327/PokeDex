@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeDex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77066832f38ffaa910ce379509df0d0b9facf797")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeDex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeDex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

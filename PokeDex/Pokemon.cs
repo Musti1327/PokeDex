@@ -19,6 +19,7 @@ namespace PokeDex
                 Console.WriteLine("2. Opdater pokemon: ");
                 Console.WriteLine("3. Vis alle pokemon: ");
                 Console.WriteLine("4. Slet pokemon: ");
+                Console.WriteLine("5. Afslut: ");
 
                 var Valg = Console.ReadLine();
                 
@@ -36,6 +37,10 @@ namespace PokeDex
                     case "4":
                         DeletePokemon();
                         break;
+                    case "5":
+                        Console.WriteLine("Programmet er afsluttet");
+                        Console.ReadLine();
+                        return;
                     default:
                         Console.WriteLine("Ugyldigt valg");
                         break;
@@ -153,17 +158,55 @@ namespace PokeDex
 
         public void ShowAllPokemon()
         {
-            using (var reader = new StreamReader(filepath))
+            Console.Clear();
+            const int pageSize = 3;
+            var lines = File.ReadAllLines(filepath).ToList();
+            int totalPages = (int)Math.Ceiling((double)lines.Count / pageSize);
+            int currentPage = 1;
+
+            while(true)
             {
-                string? line;
-                while ((line = reader.ReadLine()) != null)
+                Console.Clear();
+                Console.WriteLine($"Pokémon List - Page {currentPage}/{totalPages}");
+                var currentPokemons = lines.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+
+                 foreach (var pokemon in currentPokemons)
                 {
-                    Console.WriteLine(line);
+                    Console.WriteLine(pokemon);
                 }
+
+                Console.WriteLine("\nNavigation:");
+                if (currentPage > 1)
+                {
+                    Console.WriteLine("Tryk på venstre piltaster for at gå tilbage");
+                }
+                else if (currentPage < totalPages)
+                { 
+                    Console.WriteLine("Tryk på højre piltaster for at gå videre");
+                }
+                Console.WriteLine("Tryk på Q til at quit");
+
+                var input = Console.ReadKey(true).Key;
+
+                if (input == ConsoleKey.LeftArrow && currentPage > 1)
+                {
+                    currentPage--;
+                }
+                else if (input == ConsoleKey.RightArrow && currentPage < totalPages)
+                {
+                    currentPage++;
+                }
+                else if (input == ConsoleKey.Q)
+                {
+                    break;
+                } 
+         
             }
-            Console.ReadLine();
         }
     }
 }
+
+
+
 
 

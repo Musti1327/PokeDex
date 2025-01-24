@@ -17,14 +17,14 @@ namespace PokeDex
             {
                 Console.WriteLine("Velkommen til PokeDex");
                 Console.WriteLine("1. Logind, 2. fortsæt uden Logind");
-                Console.WriteLine("7. Afslut: ");
+                Console.WriteLine("3. Afslut: ");
 
                 var Valg = Console.ReadLine();
 
                 LogindMethod logindMethod = new LogindMethod();
               
                 Pokemon pokemon = new Pokemon();
-                pokemon.Menu();
+                pokemon.Menu();               
 
                 switch (Valg)
                 {
@@ -34,6 +34,10 @@ namespace PokeDex
                     case "2":
                         Console.WriteLine("Du er nu logget ind uden brug af logind");
                         break;
+                        case "3":
+                        Console.WriteLine("Programmet er afsluttet");
+                        Console.ReadLine();
+                        return;
                     default:
                         Console.WriteLine("Ugyldigt valg");
                         break;
