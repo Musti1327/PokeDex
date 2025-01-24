@@ -1,0 +1,14 @@
+C:\Users\shahm\Desktop\PokeDex\PokeDex\bin\Debug\net9.0\PokeDex.exe
+C:\Users\shahm\Desktop\PokeDex\PokeDex\bin\Debug\net9.0\PokeDex.deps.json
+C:\Users\shahm\Desktop\PokeDex\PokeDex\bin\Debug\net9.0\PokeDex.runtimeconfig.json
+C:\Users\shahm\Desktop\PokeDex\PokeDex\bin\Debug\net9.0\PokeDex.dll
+C:\Users\shahm\Desktop\PokeDex\PokeDex\bin\Debug\net9.0\PokeDex.pdb
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.AssemblyInfoInputs.cache
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.AssemblyInfo.cs
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.csproj.CoreCompileInputs.cache
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.dll
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\refint\PokeDex.dll
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.pdb
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\PokeDex.genruntimeconfig.cache
+C:\Users\shahm\Desktop\PokeDex\PokeDex\obj\Debug\net9.0\ref\PokeDex.dll
